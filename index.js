@@ -4,7 +4,7 @@ var express = require('express');
 var cors = require('cors');
 var bodyParser = require('body-parser');
 var massive = require('massive');
-// var keys = require('./config');
+var keys = require('./config');
 
 // INITILIZE APP
 // ============================================================
@@ -12,9 +12,9 @@ var app = module.exports = express();
 
 // MASSIVE CONNECTION
 // ============================================================
-// var massiveServer = massive.connectSync({connectionString: keys.massive});
-// app.set('db', massiveServer);
-// var db = app.get('db');
+var massiveServer = massive.connectSync({connectionString: keys.massive});
+app.set('db', massiveServer);
+var db = app.get('db');
 
 // CONTROLLERS
 // ============================================================
@@ -30,7 +30,7 @@ app.use(express.static(__dirname + '/public'));
 // ENDPOINTS
 // ============================================================
 // MODEL ENDPOINTS
-// app.get('/test', testCtrl.read);
+app.get('/test', testCtrl.read);
 // app.post('/model', testCtrl.create);
 // app.put('/model/:id', testCtrl.update);
 // app.delete('/model/:id', testCtrl.delete);
