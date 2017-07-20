@@ -10,6 +10,7 @@
   background-color: white;
   width: 100%;
   height: 260px;
+  font-size: 18px
 }
 .landing-header-contacts-container {
   float: right;
@@ -23,8 +24,9 @@
   align-self: center;
   padding-left: 5px;
 }
-.landing-header-center {
-  align-self: center;
+.landing-header-text {
+  color: #F74D00;
+  margin-left: 5px;
 }
 .landing-header-logo-container {
   display: flex;
@@ -42,6 +44,24 @@
   top: -25px;
   margin-left: -233px;
 }
+
+.landing-nav{
+  width: 100%;
+  height: 50px;
+  background-color: #F74D00;
+  color: #FFFFFF;
+  line-height: 2;
+  font-size: 18px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.landing-nav-links{
+  align-self: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .landing-main-transparent {
   width: 100%;
   height: 450px;
@@ -53,35 +73,91 @@
   color: #F74D00;
   text-align: center;
   line-height: 100px;
+  font-style: italic;
+  font-size: 35px;
 }
 .landing-main-sec-2 {
   width: 100%;
-  height: 100px;
   background-color: #010066;
   color: #FFFFFF;
   text-align: center;
+  line-height: 2;
+  padding: 100px;
+  font-size: 18px;
 }
+
 .landing-main-sec-3 {
   width: 100%;
-  height: 100px;
   background-color: #FFFFFF;
-  color: #444444;
-  text-align: center;
   display: flex;
   flex-flow: row;
+  padding: 50px;
+  justify-content: space-around;
 }
+.landing-main-sec-3-headers{
+  font-size: 40px;
+  color: #F74D00;
+  font-size: 25px;
+  align-self: center;
+}
+.landing-main-sec-3-body{
+  font-size: 40px;
+  color: #444444;
+  font-size: 18px;
+  align-self: left;
+}
+.landing-main-sec-3-sub-containers{
+  max-width: 450px;
+  margin-left: 30px;
+  margin-right: 30px;
+  line-height: 1.5;
+}
+
 .landing-main-sec-4 {
   width: 100%;
   height: 100px;
   background-color: #DEDBDB;
   color: #010066;
   text-align: center;
+  font-size: 40px;
+  line-height: 100px;
 }
+
 .landing-main-sec-5 {
   width: 100%;
-  height: 100px;
   background-color: #FFFFFF;
+  display: flex;
+  flex-flow: row;
+  padding: 50px;
+  justify-content: space-around;
+}
+.landing-main-sec-5-sub-containers{
+  max-width: 450px;
+  margin-left: 30px;
+  margin-right: 30px;
+  line-height: 1.5;
+}
+.landing-main-sec-5-header {
+  font-size: 40px;
+  color: #F74D00;
+  font-size: 25px;
+  align-self: center;
+}
+.landing-main-sec-5-body {
+  font-size: 40px;
   color: #444444;
+  font-size: 18px;
+  align-self: left;
+}
+.landing-main-sec-5-image {
+  width: 450px;
+  height: 300px;
+}
+.landing-footer{
   text-align: center;
-
+  width: 100%;
+  background-color: #F74D00;
+  color: #FFFFFF;
+  line-height: 2;
+  font-size: 18px;
 }
