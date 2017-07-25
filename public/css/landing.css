@@ -168,7 +168,7 @@ body:before {
 .landing-call-container{
   display: none;
   flex-flow: row;
-  height: 75px;
+  height: 70px;
   width: 90vw;
 }
 .landing-phone-icon-container{
@@ -188,7 +188,7 @@ body:before {
   font-size: 35px;
   width: 85%;
   height: 100%;
-  line-height: 3;
+  line-height: 2;
 }
 .call-button-padding{
   padding: 5%;
@@ -250,7 +250,7 @@ body:before {
   .landing-call-container{
     display: flex;
     flex-flow: row;
-    height: 100px;
+    height: 70px;
     width: 90vw;
     justify-content: center;
     text-decoration: none;
