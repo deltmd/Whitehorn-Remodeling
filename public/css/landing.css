@@ -262,3 +262,11 @@ body:before {
     display: flex;
   }
 }
+@media (max-height: 600px) and (max-width: 700px){
+  .landing-header-container {
+    background-color: white;
+    width: 100%;
+    height: 40vh;
+    font-size: 18px
+  }
+}
